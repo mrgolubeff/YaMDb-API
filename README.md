@@ -1,3 +1,4 @@
+![Workflow Badge]('https://github.com/mrgolubeff/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg')
 # api_yamdb
 # Проект «API для Yatube»
 ### Описание
