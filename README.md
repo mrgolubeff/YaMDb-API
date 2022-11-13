@@ -76,13 +76,13 @@ GET http://127.0.0.1:8000/api/v1/
 Вернет список доступных эндпоинтов
 
 ### Наполнение env-файла (/infra_sp2/nginx/)
-DB_ENGINE=[path to postgresql backend] # указываем, что работаем с postgresql
-DB_NAME=[datebase name] # имя базы данных
-POSTGRES_USER=[login] # логин для подключения к базе данных
-POSTGRES_PASSWORD=[password] # пароль для подключения к БД
-DB_HOST=[container name] # название сервиса (контейнера)
-DB_PORT=[bd port] # порт для подключения к БД
-SECRET_KEY=[Django secret key] # Секретный ключ из файла settings.py
++ DB_ENGINE=[path to postgresql backend] # указываем, что работаем с postgresql
++ DB_NAME=[datebase name] # имя базы данных
++ POSTGRES_USER=[login] # логин для подключения к базе данных
++ POSTGRES_PASSWORD=[password] # пароль для подключения к БД
++ DB_HOST=[container name] # название сервиса (контейнера)
++ DB_PORT=[bd port] # порт для подключения к БД
++ SECRET_KEY=[Django secret key] # Секретный ключ из файла settings.py
 
 ### Команды для запуска приложения в контейнерах
 1. Перейти в директорию infra_sp2/infra (в которой хранится файл docker-compose.yaml)
