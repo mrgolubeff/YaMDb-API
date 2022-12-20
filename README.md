@@ -1,6 +1,5 @@
 ![Workflow Badge](https://github.com/mrgolubeff/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
-# api_yamdb
-# Проект «API для Yatube»
+# Проект «API для YaMDb»
 ### Описание
 Проект YaMDb собирает отзывы пользователей на произведения. Из пользовательских оценок формируется рейтинг произведения.
 ### Авторы
@@ -89,6 +88,3 @@ GET http://127.0.0.1:8000/api/v1/
 2. Из этой директории выполнить команду *docker-compose up -d --build* (это пересоберет контейнеры и запустит их в фоновом режиме)
 3. Сделать миграции командой *docker-compose exec web python manage.py migrate*
 4. Остановить исполнение проекта можно командой *docker-compose down*
-
-### Адрес развернутого проекта
-Посмотреть проект можно по адресу [62.84.126.58](http://62.84.126.58)
