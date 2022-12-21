@@ -1,4 +1,3 @@
-![Workflow Badge](https://github.com/mrgolubeff/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 # Проект «API для YaMDb»
 ### Описание
 Проект YaMDb собирает отзывы пользователей на произведения. Из пользовательских оценок формируется рейтинг произведения.
